@@ -46,4 +46,4 @@ karma start karma.conf.js
 6.	Rest service URL is defined as   - http://127.0.0.1:8000/app_dev.php/product/
 In productcontroller.js , productcontroller.spec.js
 URL to be replaced, if the PHP server runs app in a different port.
-
+7. Open Product.html to see UI
