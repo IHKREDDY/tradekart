@@ -2,7 +2,11 @@ Folder Structure:
 Root folder: tradekart
 PHP code: tradekart/server
 HTML/Javascript/CSS -  tradekart/client
+
+
 Note: Developed in windows machine 
+
+
 Server code configuration:
 Installation steps:
 If you have PHP, composer installed on your machine, you may directly run PHP server
@@ -21,9 +25,12 @@ new JMS\SerializerBundle\JMSSerializerBundle(),
 new Nelmio\CorsBundle\NelmioCorsBundle()
 7.	Add configuration in tadekart/server /app /config/config.yml (refer to project)
 8.	Copy the files tadekart/server /src  & tadekart/server /tests  (refer to project)
-   Run PHP server:
+
+Run PHP server:
 1.	cd tradekart/server
 2.	 php bin/console server:run
+
+
 Client Code:
 Installation steps:
 1.	Run npm install command  to install JavaScript dependencies
