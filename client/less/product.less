@@ -1,0 +1,105 @@
+﻿@background-color: #fff;
+@text-color: #1A237E;
+
+@header-font: "Helvetica Neue","HelveticaNeue-Thin","Helvetica Neue",Helvetica,Arial,sans-serif;
+@header-font-weight: 200;
+
+@title-font: "Helvetica Neue","HelveticaNeue-Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+@title-font-weight:600;
+
+h1 {
+    font-family: @header-font;
+    font-weight: @header-font-weight;
+    font-size: 36px;
+}
+
+.product {
+    background: @background-color;
+    text-align: center;
+    height:380px;
+}
+
+.product-container
+{
+border:1px solid #e6e6e6;
+padding:20px 10px 10px 10px;
+-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.15);
+-moz-box-shadow:0 1px 2px rgba(0,0,0,0.15);
+ box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+ -webkit-transition:  all 0.3s ease-in-out;
+ -moz-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+ margin-top:10px;
+}
+
+.product-container:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  -moz-box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.linkstyle{
+    text-decoration:none;
+}
+a:any-link{
+    .linkstyle
+}
+
+a:moz-any-link{
+.linkstyle
+}
+a:-webkit-any-link {
+.linkstyle
+}
+
+.product div.name:hover{
+      color:#0092db;
+}
+
+
+.product .image {
+    margin: 0 auto 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.product .name {
+    color: #4855a0;
+    font-family: @title-font;
+    font-weight: @title-font-weight;
+    font-size: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1.2em;
+    height:50px;
+}
+
+.product .number {
+        color: #121758;
+        margin-bottom:10px;
+}
+
+.product .price {
+        border-top: 1px solid #e3e3e3;
+        text-align: center;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px 0 5px 0;
+        font-family: @title-font;
+        font-weight: @title-font-weight;
+        color: #c00;
+        margin-bottom: 5px;
+}
+
+/* Modal css */
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+
+
