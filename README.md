@@ -4,12 +4,13 @@ PHP code: tradekart/server
 HTML/Javascript/CSS -  tradekart/client
 
 
-Note: Developed in windows machine 
+Note: Developed in windows machine.
 
 
 Server code configuration:
 Installation steps:
-If you have PHP, composer installed on your machine, you may directly run PHP server
+If you have PHP, composer installed on your machine, you may directly run PHP server.
+
 1.	Install PHP
 2.	Copy php.ini file to PHP directory (tradekart/server/php.ini)
 3.	Install composer
